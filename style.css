@@ -8,7 +8,7 @@
 }
 body{
     width: 1440px;
-    margin: auto;
+    margin: 86px auto 0 auto;
 }
 /*------------------------------header--------------------------------------*/
 header{
@@ -20,6 +20,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 header p{
     color: #001858;
@@ -80,3 +83,88 @@ header button{
     text-transform: capitalize;
 }
 /*------------------------------main--------------------------------------*/
+main{
+    width: 1440px;
+    height: 900px;
+    background: #EFF0F3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 116px;
+    padding: 164px 95px 263px 95px;
+}
+h1{
+    width: 617px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+main div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    margin: 12px 0;
+}
+main p{
+    width: 665px;
+    color: #9A9494;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-left: 3px solid #2B2C34;
+    padding-left: 12px;
+}
+main .email{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20px;
+}
+input{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border-style: none;
+    background: White;
+}
+text{
+    color: Grey;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+main button{
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-style: none;
+    border-radius: 8px;
+    background: #6246EA;
+
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+img{
+    width: 470px;;
+}
