@@ -137,14 +137,14 @@ input{
     border-radius: 8px;
     border-style: none;
     background: White;
-}
-text{
+
     color: Grey;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    opacity: 0.5;
 }
 main button{
     display: flex;
@@ -168,3 +168,91 @@ main button{
 img{
     width: 470px;;
 }
+/*------------------------------section--------------------------------------*/
+section{
+    width: 1440px;
+    height: 500px;
+    padding: 67px 94px 68px 94px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    background: #EFF0F3;
+}
+section .subheader{
+    width: 1252px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .subheader p{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+section .subheader span{
+    color: #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+section .subheader div{
+    display: flex;
+    gap: 12px;
+}
+section .subheader div svg{
+    margin: 8px 8px 0 0;
+}
+section .category-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 37px;
+}
+section .category-wrapper .category{
+    width: 220px;
+    height: 280px;
+    padding: 65px 94px 95px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    transition: 1s;
+}
+section .category-wrapper .category img{
+    width: 60px;
+}
+section .category-wrapper .category p{
+    width: 98px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+section .category-wrapper .category:hover{
+    background-color: #6246EA;
+    transition: 2s;
+    p{
+        color: #FFFFFE;
+        transition: 0.5s;
+}
+}
+/*------------------------------article--------------------------------------*/
