@@ -72,6 +72,7 @@ header button{
     padding: 10px 17px;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
     background: #6246EA;
 
     color: #FFFFFE;
@@ -155,6 +156,7 @@ main button{
     gap: 10px;
     border-style: none;
     border-radius: 8px;
+    cursor: pointer;
     background: #6246EA;
 
     color: #FFFFFE;
@@ -205,6 +207,7 @@ section .subheader span{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    cursor: pointer;
 }
 section .subheader div{
     display: flex;
@@ -233,6 +236,7 @@ section .category-wrapper .category{
     background: #FFFFFE;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     transition: 1s;
+    cursor: pointer;
 }
 .JavaScript{
     border-radius: 7.458px;
@@ -302,6 +306,7 @@ article .subheader span{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    cursor: pointer;
 }
 article .subheader div{
     display: flex;
@@ -327,6 +332,7 @@ article .article-gallery .article{
     padding: 20px;
     border-radius: 12px;
     transition: 1s;
+    cursor: pointer;
 }
 article .article-gallery .article:hover{
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
@@ -402,6 +408,7 @@ article button{
     gap: 10px;
     border-radius: 8px;
     border-style: none;
+    cursor: pointer;
     background: #6246EA;
 
     color: #FFFFFE;
@@ -481,6 +488,7 @@ address button{
     gap: 10px;
     border-style: none;
     border-radius: 8px;
+    cursor: pointer;
     background: #6246EA;
 
     color: #FFFFFE;
@@ -509,14 +517,14 @@ footer .footer-wrapper{
     flex-direction: row;
     gap: 160px;
 }
-footer .footer-wrapper .left-footer{
+footer .footer-wrapper .site-card{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
 }
-footer .footer-wrapper .left-footer p{
+footer .footer-wrapper .site-card p{
     color: #001858;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 36px;
@@ -524,7 +532,7 @@ footer .footer-wrapper .left-footer p{
     font-weight: 600;
     line-height: normal;
 }
-footer .footer-wrapper .left-footer p span{
+footer .footer-wrapper .site-card p span{
     width: 48px;
     height: 27px;
     color: #6246EA;
@@ -534,7 +542,7 @@ footer .footer-wrapper .left-footer p span{
     font-weight: 700;
     line-height: normal;
 }
-footer .footer-wrapper .left-footer span{
+footer .footer-wrapper .site-card span{
     width: 284px;
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -543,32 +551,33 @@ footer .footer-wrapper .left-footer span{
     font-weight: 400;
     line-height: normal;
 }
-footer .footer-wrapper .left-footer .social-media{
+footer .footer-wrapper .site-card .social-media{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
     gap: 30px;
 }
-footer .footer-wrapper .left-footer .social-media svg{
+footer .footer-wrapper .site-card .social-media svg{
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
-footer .footer-wrapper .right-footer{
+footer .footer-wrapper .footer-navigation{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
     gap: 95px;
 }
-footer .footer-wrapper .right-footer div{
+footer .footer-wrapper .footer-navigation div{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
 }
-footer .footer-wrapper .right-footer div h4{
+footer .footer-wrapper .footer-navigation div h4{
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
@@ -577,19 +586,21 @@ footer .footer-wrapper .right-footer div h4{
     line-height: normal;
     text-transform: uppercase;
 }
-footer .footer-wrapper .right-footer div p{
+footer .footer-wrapper .footer-navigation div p{
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    cursor: pointer;
 }
-hr{
+footer .line{
     width: 1250px;
     height: 1px;
     margin: 50px 0 26px 0;
-    background: #C0C0C0;
+    background-color: #C0C0C0;
+    opacity: 80%;
 }
 footer p{
     color: #2B2C34;
