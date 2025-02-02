@@ -187,7 +187,7 @@ section .subheader{
     justify-content: space-between;
     align-items: center;
 }
-section .subheader p{
+section .subheader h3{
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 24px;
@@ -284,7 +284,7 @@ article .subheader{
     justify-content: space-between;
     align-items: center;
 }
-article .subheader p{
+article .subheader h3{
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 24px;
@@ -415,8 +415,8 @@ article button{
 /*------------------------------address--------------------------------------*/
 address{
     width: 1440px;
-    height: 420px;
-    padding-top: 58px;
+    height: 453px;
+    padding: 58px 0 58px 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -433,7 +433,6 @@ address svg{
 }
 address .address-wrapper{
     width: 696px;
-    height: 362px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -493,3 +492,110 @@ address button{
     text-transform: capitalize;
 }
 /*------------------------------footer--------------------------------------*/
+footer{
+    width: 1440px;
+    height: 435px;
+    padding: 70px 96px 26px 95px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: #E4E5E9;
+}
+footer .footer-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 160px;
+}
+footer .footer-wrapper .left-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .footer-wrapper .left-footer p{
+    color: #001858;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+footer .footer-wrapper .left-footer p span{
+    width: 48px;
+    height: 27px;
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+footer .footer-wrapper .left-footer span{
+    width: 284px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer .footer-wrapper .left-footer .social-media{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 30px;
+}
+footer .footer-wrapper .left-footer .social-media svg{
+    width: 30px;
+    height: 30px;
+}
+footer .footer-wrapper .right-footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 95px;
+}
+footer .footer-wrapper .right-footer div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .footer-wrapper .right-footer div h4{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+footer .footer-wrapper .right-footer div p{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+hr{
+    width: 1250px;
+    height: 1px;
+    margin: 50px 0 26px 0;
+    background: #C0C0C0;
+}
+footer p{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
